@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="516.0" prefWidth="582.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.StatisticalController">
+   <children>
+      <Text layoutX="194.0" layoutY="32.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thống kê thiết bị trong nhà văn hóa" wrappingWidth="278.13671875">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <TableView fx:id="table" layoutX="45.0" layoutY="108.0">
+        <columns>
+          <TableColumn fx:id="stt" prefWidth="46.0" text="STT" />
+          <TableColumn fx:id="id" prefWidth="74.0" text="Mã thiết bị " />
+            <TableColumn fx:id="name" prefWidth="111.0" text="Tên thiết bị" />
+            <TableColumn fx:id="quantity" minWidth="1.0" prefWidth="98.0" text="Số lượng" />
+            <TableColumn fx:id="status" minWidth="0.0" prefWidth="96.0" text="Số lượng hỏng" />
+            <TableColumn fx:id="unit1" maxWidth="250.0" prefWidth="77.0" text="Đơn vị tính" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
