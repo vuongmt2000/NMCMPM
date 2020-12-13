@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="615.0" prefWidth="942.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RedirectController">
+   <children>
+      <Button fx:id="registerId" layoutX="132.0" layoutY="234.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="194.0" text="Đăng ký thuê nhà văn hóa" />
+      <Button fx:id="loginId" layoutX="589.0" layoutY="234.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="194.0" text="Quản lý nhà văn hóa" />
+      <Label layoutX="271.0" layoutY="24.0" text="Nhà văn hóa IT Bách Khoa Hà Nội">
+         <font>
+            <Font size="28.0" />
+         </font></Label>
+      <Label layoutX="131.0" layoutY="83.0" text="Địa chỉ: Số 1 Đại Cồ Việt, Hai Bà Trưng, Thành phố Hà Nội">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="132.0" layoutY="112.0" text="Số điện thoại: (+84)243 869 2104  ">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="132.0" layoutY="143.0" text="Fax: 028 869 3782">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="131.0" layoutY="176.0" text="Email:  ctsv@hust.edu.vn">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="380.0" layoutY="321.0" text="Nội quy nhà văn hóa">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label layoutX="104.0" layoutY="366.0" text="1. Tổ chức các hoạt động, sinh hoạt, hội họp có nội dung trái quy định của pháp luật, chống phá Đảng, Chính quyền">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="104.0" layoutY="393.0" text="2. Tổ chức đánh bạc và các tệ nạn xã hội khác dưới mọi hình thức; vi phạm quy định về an ninh trật tự và nếp">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="121.0" layoutY="413.0" text="sống văn minh nơi công cộng như: Hút thuốc lá, tổ chức ăn uống trong việc cưới, sinh nhật...">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="104.0" layoutY="439.0" text="3. Mang vũ khí, chất gây nổ và các hóa chất độc hại nguy hiểm vào Nhà văn hóa – Khu thể thao.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="113.0" layoutY="535.0" text="bừa bãi, ảnh hưởng đến môi trường...">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="104.0" layoutY="495.0" text="5. Sử dụng các công trình trong Nhà Văn hóa – Khu thể thao không đúng mục đích. Làm hư hỏng hoặc gây">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="103.0" layoutY="467.0" text="4. Hoạt động Quảng cáo thương mại, tiếp thị bán hàng trái quy định.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="104.0" layoutY="564.0" text="6. Các hành vi bị cấm khác theo quy định của pháp luật.">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="114.0" layoutY="515.0" text="mất mỹ quan khuôn viên nhà văn hóa như: Bẻ cành, hái hoa, phơi đồ, chăn thả gia súc, gia cầm để phóng uế">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

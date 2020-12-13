@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="195.0" prefWidth="455.0" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RequireController" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <Button fx:id="requireButton" layoutX="183.0" layoutY="140.0" mnemonicParsing="false" onAction="#requireAction" text="Xác nhận" />
+      <Label layoutX="187.0" layoutY="31.0" text="Thông báo" />
+      <Label layoutX="127.0" layoutY="66.0" text="Nhập mã để xác nhận đăng ký" />
+      <TextField fx:id="requireId" layoutX="130.0" layoutY="98.0" />
+   </children>
+</AnchorPane>

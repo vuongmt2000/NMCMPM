@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="845.0" prefWidth="965.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RegisterFormController">
+    <children>
+        <Text layoutX="361.0" layoutY="51.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cộng hòa xã hội chủ nghĩa Việt Nam" />
+        <Text layoutX="392.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Độc lập tự do hạnh phúc" />
+        <Text layoutX="418.0" layoutY="126.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Văn bản đăng ký" />
+        <Label layoutX="72.0" layoutY="165.0" text="Họ và tên( chữ in hoa): " />
+        <Label layoutX="248.0" layoutY="305.0" text="Tôn giáo: " />
+        <Label layoutX="75.0" layoutY="214.0" text="Sinh ngày" />
+        <Label layoutX="75.0" layoutY="258.0" text="Giấy CMND/ thẻ CCCD" />
+        <Label layoutX="474.0" layoutY="258.0" text="Ngày cấp" />
+        <Label layoutX="705.0" layoutY="258.0" text="Nơi cấp" />
+        <Label layoutX="75.0" layoutY="305.0" text="Dân tộc: " />
+        <Label layoutX="444.0" layoutY="305.0" text="Số điện thoại:  " />
+        <Label layoutX="75.0" layoutY="379.0" text="Địa chỉ thường trú: " />
+        <Label layoutX="87.0" layoutY="578.0" text="Chọn phòng: " />
+        <Label layoutX="75.0" layoutY="433.0" text="Nội dung đề nghị: " />
+        <Label layoutX="411.0" layoutY="530.0" text="Thông tin cần thuê" />
+        <ComboBox fx:id="comboBoxFloor" layoutX="191.0" layoutY="573.0" onAction="#chooseRoom" prefHeight="31.0" prefWidth="141.0" promptText="Phòng" />
+        <Label layoutX="80.0" layoutY="632.0" text="Chọn thiết bị:" />
+        <Label layoutX="72.0" layoutY="691.0" text="Nhập số lượng: " />
+        <Label fx:id="noteId" layoutX="191.0" layoutY="732.0" />
+        <ComboBox fx:id="comboBoxDevice" layoutX="191.0" layoutY="627.0" onAction="#chooseDevice" prefHeight="31.0" prefWidth="141.0" promptText="Thiết bị" />
+        <TextField fx:id="quantity" layoutX="191.0" layoutY="686.0" prefHeight="31.0" prefWidth="141.0" />
+        <TextArea fx:id="contentRent" layoutX="457.0" layoutY="568.0" prefHeight="185.0" prefWidth="474.0" />
+        <Button fx:id="btnAdd" layoutX="385.0" layoutY="686.0" mnemonicParsing="false" onAction="#addDevice" prefHeight="31.0" prefWidth="59.0" text="Thêm" />
+        <TextField fx:id="mainName" layoutX="248.0" layoutY="160.0" onAction="#keyupMainName" />
+        <TextField fx:id="creditCard" layoutX="248.0" layoutY="253.0" />
+        <TextField fx:id="addressOfLocation" layoutX="764.0" layoutY="253.0" />
+        <TextField fx:id="nation" layoutX="133.0" layoutY="300.0" prefHeight="31.0" prefWidth="99.0" />
+        <TextField fx:id="religion" layoutX="319.0" layoutY="300.0" prefHeight="31.0" prefWidth="99.0" />
+        <TextField fx:id="phone" layoutX="552.0" layoutY="300.0" prefHeight="31.0" prefWidth="134.0" />
+        <TextField fx:id="pernamentAddress" layoutX="239.0" layoutY="374.0" prefHeight="31.0" prefWidth="695.0" />
+        <TextArea fx:id="reason" layoutX="238.0" layoutY="410.0" prefHeight="103.0" prefWidth="695.0" />
+        <Button fx:id="btnSave" layoutX="476.0" layoutY="786.0" mnemonicParsing="false" onAction="#saveForm" prefHeight="31.0" prefWidth="74.0" text="Lưu" />
+      <Label fx:id="areaId" layoutX="346.0" layoutY="578.0" prefHeight="21.0" prefWidth="106.0" text="150 mét vuông" />
+      <Label fx:id="roomId" layoutX="120.0" layoutY="551.0" />
+      <Label fx:id="deviceId" layoutX="116.0" layoutY="611.0" />
+      <DatePicker fx:id="dateOfBirth" layoutX="248.0" layoutY="209.0" promptText="Chọn ngày" />
+      <DatePicker fx:id="dateOfLocation" layoutX="552.0" layoutY="253.0" prefHeight="31.0" prefWidth="134.0" />
+      <Button fx:id="back" layoutX="374.0" layoutY="786.0" mnemonicParsing="false" text="Quay lại" />
+    </children>
+</AnchorPane>
